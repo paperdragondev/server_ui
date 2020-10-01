@@ -1,7 +1,12 @@
 import React from 'react';
+import Routes from './Routes';
 
 function App() {
-  return <div>server ui</div>;
+  return (
+    <div>
+      <Routes />
+    </div>
+  );
 }
 
 export default App;
