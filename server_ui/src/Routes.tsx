@@ -6,6 +6,7 @@ import HomePage from './areas/Landing/HomePage';
 function Routes() {
   return (
     <Switch>
+      FileRetriever
       <Route path="/" component={HomePage} />
     </Switch>
   );
